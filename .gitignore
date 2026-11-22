@@ -1,0 +1,7 @@
+*.skill
+*.zip
+__pycache__/
+.devcheck/
+_to_delete/
+.DS_Store
+Thumbs.db
