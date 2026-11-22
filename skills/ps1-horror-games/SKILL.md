@@ -1,16 +1,16 @@
 ---
-name: xesaga-games
-description: Make short atmospheric indie horror games in Godot 4 the XeSaga way - one place, one ordinary task, an unstoppable doom and one unforgettable image, in a low-res PS1 look - from idea and game plan through dread design, Tripo/Blender/ElevenLabs assets, tests, Windows packaging, in-engine trailers and itch.io/Steam pages. Use it whenever someone wants to make, plan or improve a horror game, a short indie or PS1-style game, an atmospheric story game, scares, dread, a creepy mechanic, or a horror trailer or store page, mentions XeSaga or Keep an Eye, or names a short horror game they want to make something like.
+name: ps1-horror-games
+description: Make short, atmospheric PS1-style indie horror games in Godot 4 - one place, one ordinary task, an unstoppable doom and one unforgettable image, in a low-res PS1 look - from idea and game plan through dread design, Tripo/Blender/ElevenLabs assets, tests, Windows packaging, in-engine trailers and itch.io/Steam pages. Use it whenever someone wants to make, plan or improve a horror game, a short indie or PS1-style game, an atmospheric story game, scares, dread, a creepy mechanic, or a horror trailer or store page, mentions Keep an Eye, or names a short horror game they want to make something like.
 ---
 
-# Short indie horror, the XeSaga way
+# Short PS1-style indie horror
 
-XeSaga ("a Xeravon studio") makes **short, atmospheric indie horror games**: 20-60 minutes, one place,
+This skill makes **short, atmospheric indie horror games**: 20-60 minutes, one place,
 one ordinary activity, something huge and wrong closing in, low-res PS1 look, no happy ending required.
 Think of the space small Steam/itch horror games live in (for example SHIATH, a sub-hour game about
 self-made doom built around clay pigeon shooting). This skill is how to make games of that kind: the
 genre craft (`references/horror-playbook.md`, read it first for any new idea) plus the production
-workflow XeSaga used to ship **Keep an Eye** (a 5-day survival horror on a dying island watched by a
+workflow the author used to ship **Keep an Eye** (a 5-day survival horror on a dying island watched by a
 giant hand with an eye in its palm). Keep an Eye is one worked example, not a template: each new game
 needs its own place, task, doom and image.
 
@@ -24,7 +24,7 @@ Ask for a value only when a step actually needs it (the idea stage needs none of
 
 | Setting | Your value |
 |---|---|
-| Studio name (used in credits and store pages) | `<Studio>` (example: XeSaga, a Xeravon studio) |
+| Studio name (used in credits and store pages) | `<Studio>` (your own studio or handle) |
 | Language to talk to the creator in | `<language>` (example: Arabic, Spanish, English). Code, docs, comments and in-game text stay English unless told otherwise |
 | Godot 4 executable ("your Godot path"); keep the `_console.exe` wrapper beside it | `<path>` (also usable as the `GODOT_PATH` environment variable) |
 | Fonts folder (free OFL fonts only) | `<path>` |
@@ -93,7 +93,7 @@ translation stays easy.
 - **Storage matters.** No big temp files lying around; when cleaning up, move unused files to
   `_to_delete/` with a README (size, why unused) instead of deleting, and never touch originals.
 
-## Style DNA (all XeSaga games)
+## Style DNA
 
 - Low-res render (640×360 internal, nearest upscale), OpenGL compatibility renderer so it runs on weak
   laptops, low-poly / PS1-era models with small nearest-filtered textures, one strong colour grade, a

@@ -1,11 +1,11 @@
 {
-  "name": "xesaga-games",
-  "owner": { "name": "XeSaga" },
+  "name": "ps1-horror-games",
+  "owner": { "name": "Marwan Farid" },
   "plugins": [
     {
-      "name": "xesaga-games",
+      "name": "ps1-horror-games",
       "source": "./",
-      "description": "The XeSaga workflow for story-driven indie games in Godot 4: planning, look and feel, tests, packaging, in-engine trailers and itch.io pages.",
+      "description": "Make short, atmospheric PS1-style indie horror games in Godot 4: planning, dread design, tests, packaging, in-engine trailers and itch.io/Steam pages.",
       "version": "1.1.3"
     }
   ]

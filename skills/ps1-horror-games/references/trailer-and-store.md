@@ -36,7 +36,7 @@ itch.io is free; Steam costs $100 (recouped after $1,000 sales). Prepare everyth
 - `screenshots/` 6 × 1920×1080 (render at 640×360, upscale ×3 nearest) — gameplay only, no endings
 - `gifs/` 3 × ~480 px wide, 12 fps, < 3 MB, cut from the trailer
 - `PAGE_TEXT.md`: title, URL slug, tagline, description (hook, story, features, controls, how to run,
-  "More info → Run anyway" note for the unsigned exe, system requirements, "Made by XeSaga, a Xeravon studio"),
+  "More info → Run anyway" note for the unsigned exe, system requirements, "Made by <Studio>"),
   genre, 10 tags, content warning, page colours
 - `HOW_TO_UPLOAD.md` in the creator's language, field by field, stopping before the game file upload
   until the build is final. Release status "In development", visibility "Draft" until launch.
