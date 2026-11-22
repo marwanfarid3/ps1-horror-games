@@ -14,13 +14,13 @@ workflow XeSaga used to ship **Keep an Eye** (a 5-day survival horror on a dying
 giant hand with an eye in its palm). Keep an Eye is one worked example, not a template: each new game
 needs its own place, task, doom and image.
 
-**Original work only.** When the creator names a game he loves, extract why it works (pacing, tone,
+**Original work only.** When the creator names a game they love, extract why it works (pacing, tone,
 structure, the ordinary-task-under-doom formula) and build something new. Never reuse another game's
 name, characters, art, music, levels or exact premise.
 
 ## Set up for your studio (fill in once, then keep in your notes or project memory)
 
-If these are not known yet, ask for them in one short message before starting.
+Ask for a value only when a step actually needs it (the idea stage needs none of them), in one short message.
 
 | Setting | Your value |
 |---|---|
@@ -40,6 +40,8 @@ translation stays easy.
 0. **Find the idea.** Use the formula in `references/horror-playbook.md` (ordinary task + doom + one
    impossible image + a rule about looking/listening + theme). Pitch three different combinations,
    recommend one, let the creator pick.
+0b. **Mood frame.** After the creator picks an idea, make one image of its central image (an inline SVG
+   sketch or an in-engine grey-box screenshot) and get a yes before writing the plan.
 1. **Plan before code.** Write `<GAME>_GAME_PLAN.md` from `assets/game-plan-template.md`, with the acts
    laid out on the dread ladder (normal → wrong detail → presence seen → presence acts → collapse). Tag every line
    `[CONFIRMED]` (the creator said it; don't change without asking), `[PROPOSED]` (build it, easy to

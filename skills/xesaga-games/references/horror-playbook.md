@@ -2,12 +2,10 @@
 
 The kind of game this skill is for: short (20-60 minutes), cheap ($0-3), first person, low-res,
 one place, one ordinary activity, and something huge and wrong closing in. Players remember the
-mood and one image, not the mechanics. Games in this space (Keep an Eye; on Steam, games like
-SHIATH, a sub-hour game about self-made doom built around clay pigeon shooting) win reviews on
-atmosphere and writing.
+mood and one image, not the mechanics. Games in this space win reviews on atmosphere and writing.
 
 Take the genre's conventions, never another game's identity: no copied names, characters, art,
-music, levels or exact premises. If the creator names a game he likes, extract *why* it works
+music, levels or exact premises. If the creator names a game they like, extract *why* it works
 (pacing, tone, structure) and build something original from that.
 
 ## 1. Find the idea (the formula)
@@ -32,13 +30,13 @@ Keep an Eye, don't pitch another giant watcher, eye, feeding-the-threat or freez
 Each pitch should differ from every previous studio game in place, task, image and rule.
 
 ### How to pitch (idea stage)
-- Three ideas, each 4-6 lines: name, place, ordinary task, doom, the image (one sentence a player could
+- Put the pitches in the chat reply (a notes file is optional). Three ideas, each 4-6 lines: name, place, ordinary task, doom, the image (one sentence a player could
   draw), the rule, the theme, how a run ends. Then one line on why you recommend one.
 - Add one honest line per idea on build cost: models needed, crowds/particles/water that weak GPUs
   struggle with, voice acting, anything that needs a paid asset.
 - Text first, short, in the creator's language. Once one is picked, make one mood frame (an in-engine
   grey-box screenshot or an inline SVG sketch of the central image) before writing the full plan.
-- Draw settings from anywhere in the world: a Nordic lighthouse, a Japanese fishing town, a Texas motel,
+- Draw settings from anywhere in the world. These are only examples, so look well beyond them: a Nordic lighthouse, a Japanese fishing town, a Texas motel,
   an Egyptian village, a Brazilian river barge, a Scottish moor. Specific places feel more real than
   generic ones. Mix regions across the three pitches unless the creator asks for one, and make sure the
   horror works for a player who knows nothing about that culture.
@@ -56,6 +54,7 @@ changed because they did the same thing yesterday.
 
 ## 3. Techniques that build dread
 - **Routine as a lens.** The same chore each act; the horror lives in what's different.
+- (The next two are Keep an Eye's own mechanics. Use them only if the idea really needs them, never by default.)
 - **The watcher.** Something that looks back. Eyes that track the player are cheap and powerful.
 - **Overnight changes.** Footprints, marks, moved objects, a door that was shut. Never explained.
 - **Notes/broadcasts.** Short, diegetic, in someone's voice; hint, don't explain. One per act.
