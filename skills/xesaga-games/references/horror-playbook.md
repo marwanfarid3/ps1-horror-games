@@ -26,6 +26,21 @@ music, levels or exact premises. If the creator names a game he likes, extract *
 Pitch three different combinations before building; recommend one. Avoid the obvious (zombies,
 generic ghosts, jump-scare corridors) unless there's a twist only this game has.
 
+**Stay away from the references.** Don't reuse a reference game's theme, central image type or core
+rule by default: if the creator says "like SHIATH", don't make another "self-made doom" game; after
+Keep an Eye, don't pitch another giant watcher, eye, feeding-the-threat or freeze-when-watched rule.
+Each pitch should differ from every previous studio game in place, task, image and rule.
+
+### How to pitch (idea stage)
+- Three ideas, each 4-6 lines: name, place, ordinary task, doom, the image (one sentence a player could
+  draw), the rule, the theme, how a run ends. Then one line on why you recommend one.
+- Add one honest line per idea on build cost: models needed, crowds/particles/water that weak GPUs
+  struggle with, voice acting, anything that needs a paid asset.
+- Text first, short, in the creator's language. Once one is picked, make one mood frame (an in-engine
+  grey-box screenshot or an inline SVG sketch of the central image) before writing the full plan.
+- Local settings are welcome and stand out (villages, deserts, rivers, markets, old houses from the
+  creator's own country), as long as the horror works without explaining the culture.
+
 ## 2. Structure: the dread ladder
 Split the game into 3-5 acts (days, shifts, nights, rounds). Each act repeats the ordinary task
 and climbs one rung:

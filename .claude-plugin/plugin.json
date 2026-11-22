@@ -1,6 +1,6 @@
 {
   "name": "xesaga-games",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "The XeSaga workflow for story-driven indie games in Godot 4: planning, look and feel, tests, packaging, in-engine trailers and itch.io pages.",
   "author": { "name": "XeSaga" },
   "keywords": ["godot", "gamedev", "indie", "skill", "trailer", "itch.io"]
