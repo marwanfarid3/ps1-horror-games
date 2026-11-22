@@ -1,15 +1,22 @@
 ---
 name: xesaga-games
-description: The XeSaga way of making story-driven indie games in Godot 4, learned from building the horror game Keep an Eye. Covers planning with a game plan, look and feel, code layout, Tripo/Blender/ElevenLabs asset pipeline, headless tests, Windows packaging, in-engine trailers, itch.io store pages and studio branding. Use it when someone wants to plan, build, extend, test, package, make a trailer for, or publish an indie game with Godot, mentions XeSaga, story games, itch.io pages or in-engine trailers, or says things like new game idea, add a mechanic, make a trailer or publish on itch.
+description: Make short atmospheric indie horror games in Godot 4 the XeSaga way - one place, one ordinary task, an unstoppable doom and one unforgettable image, in a low-res PS1 look - from idea and game plan through dread design, Tripo/Blender/ElevenLabs assets, tests, Windows packaging, in-engine trailers and itch.io/Steam pages. Use it whenever someone wants to make, plan or improve a horror game, a short indie or PS1-style game, an atmospheric story game, scares, dread, a creepy mechanic, or a horror trailer or store page, mentions XeSaga or Keep an Eye, or names a short horror game they want to make something like.
 ---
 
-# The XeSaga way of making story-driven games
+# Short indie horror, the XeSaga way
 
-XeSaga ("a Xeravon studio") makes short, atmospheric, story-first games with one unforgettable central
-image. This skill is the workflow it used to build **Keep an Eye**, a 5-day first-person horror survival
-story on a dying island watched by a giant hand with an eye in its palm (Godot 4, low-res PS1 look, two
-endings, about 10 minutes per run). Use Keep an Eye as the worked example of **how** to work and **how
-polished** things must be, not as a template to clone. Your next game can be gentler, stranger or sadder.
+XeSaga ("a Xeravon studio") makes **short, atmospheric indie horror games**: 20-60 minutes, one place,
+one ordinary activity, something huge and wrong closing in, low-res PS1 look, no happy ending required.
+Think of the space small Steam/itch horror games live in (for example SHIATH, a sub-hour game about
+self-made doom built around clay pigeon shooting). This skill is how to make games of that kind: the
+genre craft (`references/horror-playbook.md`, read it first for any new idea) plus the production
+workflow XeSaga used to ship **Keep an Eye** (a 5-day survival horror on a dying island watched by a
+giant hand with an eye in its palm). Keep an Eye is one worked example, not a template: each new game
+needs its own place, task, doom and image.
+
+**Original work only.** When the creator names a game he loves, extract why it works (pacing, tone,
+structure, the ordinary-task-under-doom formula) and build something new. Never reuse another game's
+name, characters, art, music, levels or exact premise.
 
 ## Set up for your studio (fill in once, then keep in your notes or project memory)
 
@@ -27,7 +34,11 @@ Talk to the creator in their language, in short plain words, no jargon.
 
 ## The way we work (in this order)
 
-1. **Plan before code.** Write `<GAME>_GAME_PLAN.md` from `assets/game-plan-template.md`. Tag every line
+0. **Find the idea.** Use the formula in `references/horror-playbook.md` (ordinary task + doom + one
+   impossible image + a rule about looking/listening + theme). Pitch three different combinations,
+   recommend one, let the creator pick.
+1. **Plan before code.** Write `<GAME>_GAME_PLAN.md` from `assets/game-plan-template.md`, with the acts
+   laid out on the dread ladder (normal → wrong detail → presence seen → presence acts → collapse). Tag every line
    `[CONFIRMED]` (the creator said it; don't change without asking), `[PROPOSED]` (build it, easy to
    change) or `[TBD]` (pick the simplest default, log it in `docs/decisions.md`). Write 4-5 design
    pillars and use them to cut features ("when in doubt, cut").
@@ -93,6 +104,7 @@ Details and the techniques that worked: `references/style-bible.md`.
 
 | File | Read when |
 |---|---|
+| `references/horror-playbook.md` | any new idea, act structure, scares, dread, writing, length and price |
 | `references/style-bible.md` | designing look, UI, audio, narrative or scare beats |
 | `references/godot-architecture.md` | creating a project, adding systems, tests, saves, packaging |
 | `references/asset-pipeline.md` | adding models (Tripo/Blender), textures, sounds, music, credits |

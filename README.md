@@ -1,16 +1,19 @@
 # xesaga-games
 
-The workflow XeSaga used to build **Keep an Eye**, packaged as a Claude skill. It teaches Claude how to
-plan, build, test, package, trail and publish a short, story-driven indie game in Godot 4: a game plan
-with confirmed/proposed/TBD tags, a look prototype first, every number in a tuning file, headless smoke
-tests, portable Windows builds, in-engine trailers cut with ffmpeg, and honest itch.io pages. Keep an
-Eye (a 5-day first-person horror story on an island watched by a giant hand) is the worked example.
+A Claude skill for making **short, atmospheric indie horror games** in Godot 4: the kind you finish in
+under an hour, set in one place, built around one ordinary task while something huge and wrong closes in,
+in a low-res PS1 look. It covers the genre craft (finding the idea, the dread ladder, scares that are
+earned, sound, writing, length and price) and the full production workflow XeSaga used to ship
+**Keep an Eye** (a 5-day horror story on an island watched by a giant hand): game plan, look prototype,
+tuning file, headless tests, portable Windows builds, in-engine trailers cut with ffmpeg, and honest
+itch.io/Steam pages. It makes original games in the genre, not copies of existing ones.
 
 ## What's inside
 
 | Path | What it is |
 |---|---|
 | `skills/xesaga-games/SKILL.md` | The skill: studio setup, the nine-step workflow, studio rules, style DNA |
+| `skills/xesaga-games/references/horror-playbook.md` | The genre craft: idea formula, dread ladder, scare techniques, look, sound, writing, length, price |
 | `skills/xesaga-games/references/style-bible.md` | Look, UI, audio and narrative techniques, incl. a soft-tension variant |
 | `skills/xesaga-games/references/godot-architecture.md` | Project layout, saves, audio director, tests, packaging, versioning |
 | `skills/xesaga-games/references/asset-pipeline.md` | Tripo + Blender models, procedural textures, audio, fonts, housekeeping |
