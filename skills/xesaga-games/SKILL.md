@@ -30,7 +30,10 @@ If these are not known yet, ask for them in one short message before starting.
 | Fonts folder (free OFL fonts only) | `<path>` |
 | Studio brand kit exists? | yes/no. If no, follow `references/brand.md` to make one |
 
-Talk to the creator in their language, in short plain words, no jargon.
+Talk to the creator in their language, in short plain words, no jargon. The games themselves are for
+players everywhere: in-game text in English by default, with more languages added through Godot's
+translation files (CSV or PO) when the creator wants them; keep text in images to a minimum so
+translation stays easy.
 
 ## The way we work (in this order)
 

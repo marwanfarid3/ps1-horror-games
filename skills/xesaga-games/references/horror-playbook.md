@@ -38,8 +38,10 @@ Each pitch should differ from every previous studio game in place, task, image a
   struggle with, voice acting, anything that needs a paid asset.
 - Text first, short, in the creator's language. Once one is picked, make one mood frame (an in-engine
   grey-box screenshot or an inline SVG sketch of the central image) before writing the full plan.
-- Local settings are welcome and stand out (villages, deserts, rivers, markets, old houses from the
-  creator's own country), as long as the horror works without explaining the culture.
+- Draw settings from anywhere in the world: a Nordic lighthouse, a Japanese fishing town, a Texas motel,
+  an Egyptian village, a Brazilian river barge, a Scottish moor. Specific places feel more real than
+  generic ones. Mix regions across the three pitches unless the creator asks for one, and make sure the
+  horror works for a player who knows nothing about that culture.
 
 ## 2. Structure: the dread ladder
 Split the game into 3-5 acts (days, shifts, nights, rounds). Each act repeats the ordinary task
